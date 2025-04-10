@@ -56,40 +56,40 @@
     transform: scale(1.2);
   }
 
-  section.projects {
+  section.infs {
     padding: 3rem 1rem;
     max-width: 960px;
     margin: 0 auto;
   }
 
-  section.projects h2 {
+  section.infs h2 {
     font-size: 1.8rem;
     margin-bottom: 2rem;
   }
 
-  .project-grid {
+  .inf-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 1.5rem;
   }
 
-  .project-card {
+  .inf-card {
     background: #1c1c1c;
     border-radius: 12px;
     padding: 1rem;
     transition: background 0.3s;
   }
 
-  .project-card:hover {
+  .inf-card:hover {
     background: #2a2a2a;
   }
 
-  .project-card h3 {
+  .inf-card h3 {
     font-size: 1.2rem;
     margin-bottom: 0.5rem;
   }
 
-  .project-card p {
+  .inf-card p {
     font-size: 0.95rem;
     color: #ccc;
   }
