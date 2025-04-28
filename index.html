@@ -1,52 +1,65 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Иван Белихин</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" href="ava.png" type="image/x-icon">
-  <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css">
+  <title>Дизайнер Иван Белихин</title>
+  <style>
+    
+  </style>
 </head>
 <body>
   <header>
     <img src="ava.png" alt="Profile Photo" />
     <h1>Иван Белихин</h1>
-    <p>Графический дизайнер</p>
-    <div class="socials">
-        <a href="https://t.me/ivan_belikhin"><img src="telegram.png" alt="LinkedIn" /></a>
-        <a href="https://www.instagram.com/i.belikhin"><img src="inst.png" alt="LinkedIn" /></a>
-        <a href="https://pin.it/2U4L1rlur"><img src="pint.png" alt="LinkedIn" /></a>
-      
-    </div>
+    <p>Дизайнер инфографики</p>
   </header>
 
-  <section class="infs">
-    <h2>Основная информация</h2>
-    <div class="inf-grid">
-      <div class="inf-card">
-        <h3>Обо мне</h3>
-        <p>Меня зовут Иван Белихин, я занимаюсь инфографикой уже год, дизайном - 3 года<br>
-            Начинал я с простой верстки сайтов, мне и моим друзьям нравилось, что я делаю, но потом, узнав о Фигме, я понял, что мне больше нравится создавать инфографику<br>
-            Я работаю в 2 программах: Figma и осваиваю Photoshop. </p>
-      </div>
-      <div class="inf-card">
-        <h3>Этапы работы</h3>
-        <p><b>Обсуждаем проект</b> - обсуждаем с вами желаемый дизайн и сроки<br>
-            <b>Предоплата 50%</b> - Вы вносите предоплату, после я сразу приступаю к работе<br>
-            <b>Согласование обложки</b> - для дальнейшей работы согласовываем с Вами обложку<br>
-            <b>Внесение правок</b> - если что-то не так, то вношу правки<br>
-            <b>Завершение проекта</b> - завершаю проект в заранее обговоренные сроки</p>
-      </div>
-      <div class="inf-card">
-        <h3>Telegram канал</h3>
-        <p>Все примеры работ, актуальный прайс-лист и вся важная информация находится в Telegram канале @ivan_belikhin</p>
-      </div>
+  <section id="about">
+    <h2 class="section-title">Обо мне</h2>
+    <p>Меня зовут Иван Белихин, я занимаюсь инфографикой c 2023 года, дизайном - с 2021 года<br>
+      Начинал я с простой верстки сайтов, мне и моим друзьям нравилось, что я делаю, но потом, узнав о Фигме, я понял, что мне больше нравится создавать инфографику<br>
+      Я работаю в 2 программах: Figma и осваиваю Photoshop.</p>
+  </section>
+
+  <section id="work">
+    <h2 class="section-title">Примеры работ</h2>
+    <div class="works-grid">
+      <img src="work1.png" alt="Пример работы 1" />
+      <img src="work2.png" alt="Пример работы 2" />
+      <img src="work3.png" alt="Пример работы 3" />
     </div>
   </section>
 
+  <section id="etaps">
+    <h2 class="section-title">Этапы работы</h2>
+    <ul>
+      <li><b>Обсуждаем проект</b> - обсуждаем с вами желаемый дизайн и сроки</li>
+      <li><b>Предоплата 50%</b> - Вы вносите предоплату, после я сразу приступаю к работе</li>
+      <li><b>Согласование обложки</b> - для дальнейшей работы согласовываем с Вами обложку</li>
+      <li><b>Внесение правок</b> - если что-то не так, то вношу правки</li>
+      <li><b>Завершение проекта</b> - завершаю проект в заранее обговоренные сроки</li>
+    </ul>
+  </section>
+
+
+  <section id="contact">
+    <h2 class="section-title">Контакты</h2>
+    <div class="socials">
+      <a href="https://t.me/ivan_belikhin"><img src="telegram.png" alt="LinkedIn" /></a>
+      <a href="https://www.instagram.com/i.belikhin"><img src="inst.png" alt="LinkedIn" /></a>
+      <a href="https://pin.it/2U4L1rlur"><img src="pint.png" alt="LinkedIn" /></a>
+    
+  </div>
+  </section>
+
   <footer>
-    <p>©Иван Белихин 2025</p>
+    © 2025 Иван Белихин. Все права защищены.
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
